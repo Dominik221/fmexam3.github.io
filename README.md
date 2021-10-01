@@ -17,8 +17,8 @@ This is a solution to the [3-column preview card component challenge hub on Fron
 
 ### Links
 
-- [Solution URL:](https://www.frontendmentor.io/solutions/stats-preview-card-component-challenge-htmlscss-aGoDI7FBz)
-- [Live Site URL:](https://dominik221.github.io/fmexam2.github.io/)
+- [Solution URL:](https://www.frontendmentor.io/solutions/3column-preview-card-component-with-scss-cis08iRXX)
+- [Live Site URL:](https://dominik221.github.io/fmexam3.github.io/)
 
 ## My process
 
