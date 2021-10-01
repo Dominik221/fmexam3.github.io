@@ -33,7 +33,8 @@ body {
     a {
         color: lighten($color-bg-sedans, 15% );
 
-        &:hover {
+        &:hover,
+        &:focus {
             border: .0625rem solid $color-headings-buttons;
             background-color: $color-bg-sedans;
             color: $color-headings-buttons;
@@ -50,7 +51,7 @@ body {
         color: lighten($color-bg-suvs, 15% );
 
         &:hover,
-        &:hover {
+        &:focus {
             border: .0625rem solid $color-headings-buttons;
             background-color: $color-bg-suvs;
             color: $color-headings-buttons;
