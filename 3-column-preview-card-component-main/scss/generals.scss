@@ -1,0 +1,76 @@
+//
+// GENERALS
+// ----------------------------------------------
+
+
+body {
+    background: $color-bg-body;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+
+.sedans {
+    background-color: $color-bg-sedans;
+    border-radius: .75rem 0 0 .75rem;
+    -webkit-border-radius: .75rem 0 0 .75rem;
+    -moz-border-radius: .75rem 0 0 .75rem;
+    -ms-border-radius: .75rem 0 0 .75rem;
+    -o-border-radius: .75rem 0 0 .75rem;
+
+    a {
+        color: lighten($color-bg-sedans, 15% );
+
+        &:hover {
+            border: .0625rem solid $color-headings-buttons;
+            background-color: $color-bg-sedans;
+            color: $color-headings-buttons;
+        }
+    }
+
+    
+}
+
+.suvs {
+    background-color: $color-bg-suvs;
+
+    a {
+        color: lighten($color-bg-suvs, 15% );
+
+        &:hover,
+        &:hover {
+            border: .0625rem solid $color-headings-buttons;
+            background-color: $color-bg-suvs;
+            color: $color-headings-buttons;
+        }
+    }
+}
+
+
+.luxury {
+    background-color: $color-bg-luxury;
+    border-radius: 0rem .75rem .75rem 0rem;
+    -webkit-border-radius: 0rem .75rem .75rem 0rem;
+    -moz-border-radius: 0rem .75rem .75rem 0rem;
+    -ms-border-radius: 0rem .75rem .75rem 0rem;
+    -o-border-radius: 0rem .75rem .75rem 0rem;
+
+    a { 
+        color: lighten($color-bg-luxury, 15% );
+
+        &:hover,
+        &:focus {
+            border: .0625rem solid $color-headings-buttons;
+            background-color: $color-bg-luxury;
+            color: $color-headings-buttons;
+        }
+    }
+}
+
+.layout {
+    padding: 2.5rem;
+}

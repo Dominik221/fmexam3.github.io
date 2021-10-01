@@ -1,0 +1,25 @@
+@media screen and (max-width: 768px) {
+  body {
+    padding: 1.25rem;
+  }
+
+  .sedans {
+    border-radius: 0.75rem 0.75rem 0 0;
+    -webkit-border-radius: 0.75rem 0.75rem 0 0;
+    -moz-border-radius: 0.75rem 0.75rem 0 0;
+    -ms-border-radius: 0.75rem 0.75rem 0 0;
+    -o-border-radius: 0.75rem 0.75rem 0 0;
+  }
+
+  .luxury {
+    border-radius: 0 0 0.75rem 0.75rem;
+    -webkit-border-radius: 0 0 0.75rem 0.75rem;
+    -moz-border-radius: 0 0 0.75rem 0.75rem;
+    -ms-border-radius: 0 0 0.75rem 0.75rem;
+    -o-border-radius: 0 0 0.75rem 0.75rem;
+  }
+
+  p {
+    margin-bottom: 1.875rem;
+  }
+}

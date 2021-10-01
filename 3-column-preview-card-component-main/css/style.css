@@ -1,0 +1,122 @@
+body {
+  background: #f2f2f2;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Big Shoulders Display", cursive;
+}
+
+.sedans {
+  background-color: #e38826;
+  border-radius: 0.75rem 0 0 0.75rem;
+  -webkit-border-radius: 0.75rem 0 0 0.75rem;
+  -moz-border-radius: 0.75rem 0 0 0.75rem;
+  -ms-border-radius: 0.75rem 0 0 0.75rem;
+  -o-border-radius: 0.75rem 0 0 0.75rem;
+}
+.sedans a {
+  color: #ecad6a;
+}
+.sedans a:hover {
+  border: 0.0625rem solid #f2f2f2;
+  background-color: #e38826;
+  color: #f2f2f2;
+}
+
+.suvs {
+  background-color: #006970;
+}
+.suvs a {
+  color: #00b0bd;
+}
+.suvs a:hover, .suvs a:hover {
+  border: 0.0625rem solid #f2f2f2;
+  background-color: #006970;
+  color: #f2f2f2;
+}
+
+.luxury {
+  background-color: #004241;
+  border-radius: 0rem 0.75rem 0.75rem 0rem;
+  -webkit-border-radius: 0rem 0.75rem 0.75rem 0rem;
+  -moz-border-radius: 0rem 0.75rem 0.75rem 0rem;
+  -ms-border-radius: 0rem 0.75rem 0.75rem 0rem;
+  -o-border-radius: 0rem 0.75rem 0.75rem 0rem;
+}
+.luxury a {
+  color: #008f8c;
+}
+.luxury a:hover, .luxury a:focus {
+  border: 0.0625rem solid #f2f2f2;
+  background-color: #004241;
+  color: #f2f2f2;
+}
+
+.layout {
+  padding: 2.5rem;
+}
+
+h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #f2f2f2;
+  text-transform: uppercase;
+  margin: 1.5625rem 0 1.5625rem 0;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.75);
+  text-align: left;
+  font-weight: 500;
+  font-size: 0.875rem;
+  margin-bottom: 5.625rem;
+}
+
+a {
+  background-color: #f2f2f2;
+  text-decoration: none;
+  padding: 0.625rem 1.75rem;
+  font-weight: 900;
+  font-size: 0.8125rem;
+  border-radius: 3.125rem;
+  -webkit-border-radius: 3.125rem;
+  -moz-border-radius: 3.125rem;
+  -ms-border-radius: 3.125rem;
+  -o-border-radius: 3.125rem;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    padding: 20px;
+  }
+
+  .sedans {
+    border-radius: 12px 12px 0 0;
+    -webkit-border-radius: 12px 12px 0 0;
+    -moz-border-radius: 12px 12px 0 0;
+    -ms-border-radius: 12px 12px 0 0;
+    -o-border-radius: 12px 12px 0 0;
+  }
+
+  .luxury {
+    border-radius: 0 0 12px 12px;
+    -webkit-border-radius: 0 0 12px 12px;
+    -moz-border-radius: 0 0 12px 12px;
+    -ms-border-radius: 0 0 12px 12px;
+    -o-border-radius: 0 0 12px 12px;
+  }
+
+  p {
+    margin-bottom: 30px;
+  }
+}

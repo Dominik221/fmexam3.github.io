@@ -1,0 +1,37 @@
+//
+// TYPOGRAPHY
+// ----------------------------------------------
+
+
+h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: $color-headings-buttons;
+    text-transform: uppercase;
+    margin: 1.5625rem 0 1.5625rem 0;
+}
+
+p {
+    color: $color-paragraphs;
+    text-align: left;
+    font-weight: 500;
+    font-size: .875rem;
+    margin-bottom: 5.625rem;
+}
+
+a {
+    background-color: $color-headings-buttons;
+    text-decoration: none;
+    padding: .625rem 1.75rem;
+    font-weight: 900;
+    font-size: .8125rem;
+    border-radius: 3.125rem;
+    -webkit-border-radius: 3.125rem;
+    -moz-border-radius: 3.125rem;
+    -ms-border-radius: 3.125rem;
+    -o-border-radius: 3.125rem;
+}
+
